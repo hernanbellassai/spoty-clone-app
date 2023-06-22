@@ -1,6 +1,6 @@
 import React from "react";
 import spoty from "./spoty.jpg";
-//import "./Login.css";
+import "./Login.css";
 
 function Login() {
   return (
@@ -8,7 +8,7 @@ function Login() {
       <h1>Login</h1>
 
       <img src={spoty} alt="" />
-      <button>Login whith spoty</button>
+      <a>Login whith spoty</a>
     </div>
   );
 }
